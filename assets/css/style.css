@@ -218,6 +218,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
   display:flex; align-items:center; justify-content:center;
 }
 .portrait-avatar svg{ width: 62%; height: 62%; color: var(--accent); opacity:.9; }
+.portrait-photo{ width:100%; height:100%; object-fit:cover; display:block; }
 .portrait-tag{
   position:absolute; bottom: 6px; right: 6%; z-index:2;
   background: var(--card); border:1px solid var(--border);
